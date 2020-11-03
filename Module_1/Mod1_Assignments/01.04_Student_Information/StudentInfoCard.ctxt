@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=StudentInfoCard
+comment0.text=\r\n\ This\ program\ prints\ information\ that\ would\ normally\ be\ part\ of\ a\ student\ info\ card\r\n\r\n\ @Andrew\ Martin\r\n\ @\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ This\ class\ prints\ out\ all\ of\ the\ data.\r\n\ @return\ student\ information\r\n
+numComments=2
