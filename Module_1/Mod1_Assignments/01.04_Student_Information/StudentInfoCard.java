@@ -16,8 +16,8 @@ public class StudentInfoCard
         System.out.println("**************************************************************");
         System.out.println("*                                                            *");
         System.out.println("*                   Student Information                      *");
-        System.out.println("*                                   *");
-        System.out.println("*************************************\n");
+        System.out.println("*                                                            *");
+        System.out.println("**************************************************************\n");
         System.out.print("Name: Andrew Martin     ");
         System.out.println("Birthday: May 1, 2003");
         System.out.print("Go-by Name: Andrew      ");

@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=GradesV2
+comment0.text=\r\n\ The\ Calculations\ class\ performs\ addition,\ subtraction,\r\n\ multiplication,\ division,\ and\ modulus\ operations\ on\ integers\ and\r\n\ decimals\ using\ integer\ and\ double\ variables\r\n\ \r\n\ The\ GradesV2\ class\ prints\ out\ a\ table\ that\ displays\ the\ test\ number,\r\n\ test\ grade,\ total\ points,\ and\ the\ average\ test\ grade.\ The\ goal\ is\ to\ use\r\n\ shortcuts\ such\ as\ ++\ or\ +\=\ to\ make\ the\ math\ more\ efficient.\r\n\ \ \r\n\ @\ author\ Andrew\ Martin\r\n\ @\ version\ 11/14/2020\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

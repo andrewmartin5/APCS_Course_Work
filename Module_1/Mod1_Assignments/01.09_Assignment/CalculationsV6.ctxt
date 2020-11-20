@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=CalculationsV6
+comment0.text=\r\n\ The\ Calculations\ class\ performs\ addition,\ subtraction,\r\n\ multiplication,\ division,\ and\ modulus\ operations\ on\ integers\ and\r\n\ decimals\ using\ integer\ and\ double\ variables.\r\n\ \ \r\n\ @\ author\ Andrew\ Martin\r\n\ @\ version\ 11/10/2020\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
