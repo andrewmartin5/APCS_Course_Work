@@ -1,12 +1,16 @@
-------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all he/she needs to know. The comments should usually include at least:
-------------------------------------------------------------------------
+PROJECT TITLE: 01.13_Currency_Conversion / CurrencyV1.java
+PURPOSE OF PROJECT: To calculate USD spent when given different currencies, as well
+                        as to determine the best amount of souvenirs to buy given
+                        budget and cost.
+VERSION or DATE: 1.0 11/20/20
+AUTHORS: Andrew Martin
 
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+******************************** P M R *********************************************
+<+s>: Figuring out the calculations and print statements were easy to implement
+      Writing documentation was simple, as I did it as I was going
+      
+<-s>: Organizing my code was rather difficult, as I had just put things wherever
+          they landed. This was easy to fix, but took some time.
+************************************************************************************
+In the future: I will write my code according to a template instead of writing
+                   wherever.

@@ -9,27 +9,28 @@
 public class CurrencyV1
 {
     public static void main(String [ ] args)
-    {
-        //Declare and initialize local variables
+    {     
+        double sj = 37;
+        sj -= 2;
+        System.out.print(sj);
+        //Declare/Initialise local variables
         double startingUsDollars = 6500.00;     // starting US Dollars
-        //Initialize variables for Pesos
+        //Declare/Initialise variables for Pesos
         double pesosSpent = 7210.25;            // Mexican Pesos spent
-        double pesoExchangeRate = 19.57852;     // 1 US dollar = 19.57852 Pesos
+        double pesoExchangeRate = 20.11;     // 1 US dollar = 20.11 Pesos
         double dollarsSpentInMexico = 0.0;      // US dollars spent in Mexico
         double dollarsAfterMexico = 0.0;        // US dollars remaining after Mexico
-        //Initialize variables for Yen
+        //Declare/Initialise variables for Yen
         double yenSpent = 99939.75;             // Japanese Yen Spent
-        //TODO update Echange rates
-        double yenExchangeRate = 15.42;         // 1 US dollar = TODO Yen
+        double yenExchangeRate = 103.86;         // 1 US dollar = 103.86 Yen
         double dollarsSpentInJapan = 0.0;       // US dollars spent in Japan
         double dollarsAfterJapan = 0.0;         // US dollars remaining after Japan
-        //Initialize variables for Euros
+        //Declare/Initialise variables for Euros
         double eurosSpent = 624.95;             // Euros spent
-        //TODO update Echange rates
-        double euroExchangeRate = 583.34;       // 1 US dollar = TODO Euros
+        double euroExchangeRate = 0.84;       // 1 US dollar = 0.84 Euros
         double dollarsSpentInFrance = 0.0;      // US dollars spent in France
         double dollarsAfterFrance = 0.0;        // US dollars remaining after France
-        //Initialize variables for suvenirs
+        //Declare/Initialise variables for suvenirs
         int costItem1 = 12;                     // cost per item of first souvenir
         int budget1 = 100;                      // budget for first item
         int totalItems1 = 0;                    // how many items can be purchased
@@ -39,7 +40,7 @@ public class CurrencyV1
         int totalItems2 = 0;                    // how many items can be purchased
         double fundsRemaining2 = 0.0;           // how much of the budget is left        
         
-        //All Calculations that can be done with current information are done here
+        //Initial Calculations
         dollarsSpentInMexico = pesosSpent / pesoExchangeRate;           // calculate US dollars spent in Mexico
         dollarsAfterMexico = startingUsDollars - dollarsSpentInMexico;  // calculate US dollars remaining after Mexico
         dollarsSpentInJapan = yenSpent / yenExchangeRate;               // calculate US dollars spent in Japan

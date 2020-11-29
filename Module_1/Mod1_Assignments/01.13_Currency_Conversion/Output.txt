@@ -1,0 +1,40 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This program converts an amount of money
+from a specific country into the equivalent
+currency of another country given the current
+exchange rate.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Starting US dollars:		6500.0
+
+Mexico:
+ Pesos spent:			7210.25
+ US dollars equivalent:		358.5405271009448
+ US dollars remaining:		6141.459472899055
+Japan:
+ Yen spent:			99939.75
+ US dollars equivalent:		962.2544771808203
+ US dollars remaining:		5179.204995718234
+France:
+ Euros spent:			624.95
+ US dollars equivalent:		743.9880952380953
+ US dollars remaining:		4435.216900480139
+==================================================
+Remaining US dollars:		4435.216900480139
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Souvenir Purchases
+ (all values in US Dollars) 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Item 1
+   Cost per item: $12
+   Budget: $100
+   Total items purchased: 8
+   Funds remaining: $4
+
+Item 2
+   Cost per item: $29.99
+   Budget: $500
+   Total items purchased: 16
+   Funds remaining: $20.160000000000025
