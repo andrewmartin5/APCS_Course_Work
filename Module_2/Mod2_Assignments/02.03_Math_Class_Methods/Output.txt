@@ -1,0 +1,2 @@
+Triangle 1	Side 1: 11	Side 2: 15	Hypotenuse: 18.601075237738275
+Triangle 2	Side 1: 18	Side 2: 19	Hypotenuse: 26.1725046566048

@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=PyTheorem
+comment0.text=\r\n\ This\ program\ calculates\ the\ hypotenuse\ of\ two\ right\ triangles\ after\ creating\ values\ for\ their\r\n\ two\ sides\ in\ the\ range\ (5,\ 23].\r\n\r\n\ @Andrew\ Martin\r\n\ @12/3/2020\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
