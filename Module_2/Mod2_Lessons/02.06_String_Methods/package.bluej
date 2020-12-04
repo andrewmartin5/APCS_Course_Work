@@ -1,7 +1,7 @@
 #BlueJ package file
-editor.fx.0.height=0
-editor.fx.0.width=0
-editor.fx.0.x=0
+editor.fx.0.height=1047
+editor.fx.0.width=974
+editor.fx.0.x=-7
 editor.fx.0.y=0
 objectbench.height=137
 objectbench.width=934
@@ -24,9 +24,9 @@ readme.width=47
 readme.x=10
 readme.y=10
 target1.height=50
-target1.name=PyTheorem
+target1.name=StringPractice
 target1.showInterface=false
 target1.type=ClassTarget
-target1.width=100
+target1.width=110
 target1.x=70
 target1.y=10
