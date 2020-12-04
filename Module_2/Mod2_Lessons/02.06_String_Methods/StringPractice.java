@@ -52,9 +52,5 @@ public class StringPractice
         String newString2 = substring2 + " " + substring1;
         System.out.println("New substring: " + newString2);
         System.out.println();
-        String str = ("Voltaire");
-        int x = str.indexOf("r") / 4;
-        String news = str.substring(x, x+4);
-        System.out.println(news);
     }//end of main method
 }//end of class
