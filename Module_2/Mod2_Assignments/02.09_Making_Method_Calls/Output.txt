@@ -1,0 +1,3 @@
+Ten plus five equals 15
+Ten times five equals 50
+Ten divided by five equals 2
