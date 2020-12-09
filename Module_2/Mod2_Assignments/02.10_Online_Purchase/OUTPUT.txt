@@ -1,0 +1,53 @@
+===================================================
+
+---------Welcome to the Virtual Candy Shop!--------
+
+===================================================
+
+Hello and Welcome to the Virtual Candy Shop! Please
+enter your first and last name: First Last
+
+Please Enter Today's Date (mm/dd/yyyy): 12/08/2020
+
+What candy would you like to purchase?
+	~Candy~		~Price~
+
+	Small Candy	$0.05
+
+	Medium Candy	$0.25
+
+	Large Candy	$0.50
+Candy Type: 
+Medium Candy
+
+How many Medium candies would you like?
+21
+
+Your final price is $21.0. Is that alright (y/n)?
+y
+
+Thank you for confirming your order. Before we can
+finalize your order, please enter your debit card
+number (#####-###-####): 
+12345-678-9012
+
+Please Enter your PIN (####): 
+3456
+
+*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~
+Your e-Receipt
+
+12-08-2020
+Order number: xq53ilx-03
+
+  F. Last
+  Account: #####-###-9012
+  Candy Type: Medium Candy
+  Number of candies: 21
+
+  $21.0 will be debited to your account.
+
+  Thank you and Have a great day!
+*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~
