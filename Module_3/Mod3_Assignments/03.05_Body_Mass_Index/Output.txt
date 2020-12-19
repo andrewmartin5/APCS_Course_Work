@@ -1,0 +1,12 @@
+Enter your name (first last): Amulius Silvanus
+Enter your weight in pounds (e.g. 175): 115
+Enter your height in feet and inches (e.g. 5 11): 5 0
+
+
+Body Mass Index Calculator
+==========================
+Name: Amulius Silvanus
+Height (m): 1.5
+Weight (kg): 52.1
+BMI: 23.1
+Category: Normal
