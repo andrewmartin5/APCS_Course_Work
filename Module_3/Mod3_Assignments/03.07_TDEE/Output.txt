@@ -1,0 +1,19 @@
+Please enter your name: Andrew Martin
+Please enter your BMR: 1644
+Enter your gender (M/F): m
+
+Select Your Activity Level
+[A] Resting (Sleeping, Reclining)
+[B] Sedentary (Restricted Mobility)
+[C] Light (Sitting, Standing)
+[D] Moderate (Light Manual Labor, Dancing, Riding Bike)
+[E] Very Active (Team Sports, Hard Manual Labor)
+[F] Extremely Active (Full-time Athelete, Heavy Manual Labor)
+
+Enter the letter corresponding to your activity level: d
+
+
+Your results:
+Name: Andrew Martin		Gender: m
+BMR: 1644.0 calories		Activity Factor: 1.7
+TDEE: 2794.7999999999997
