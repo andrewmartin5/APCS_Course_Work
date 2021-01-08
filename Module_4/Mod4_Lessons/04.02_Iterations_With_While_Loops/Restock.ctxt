@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Restock
+comment0.text=\r\n\ This\ program\ simulates\ the\ fish\ population\ within\ a\ pond\ and\ predicts\r\n\ when\ to\ restock\ based\ on\ the\ growth\ delay\ formula.\ The\ while\ loop\r\n\ terminates\ when\ the\ population\ goes\ below\ a\ desired\ value.\r\n\r\n\ @author\ Charles\ Babbage\r\n\ @version\ 06/05/17\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
