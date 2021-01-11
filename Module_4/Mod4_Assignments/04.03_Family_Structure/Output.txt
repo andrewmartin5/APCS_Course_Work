@@ -1,0 +1,7 @@
+Composition statistics for families with two children.
+
+Total number of families: 200000
+Number of families with
+		2 boys: 50411 represents 25.2%
+		2 girls: 49903 represents 24.95%
+1 boy and 1 girl: 99686 represents 49.84%
