@@ -10,13 +10,13 @@ public class CountingWithWhileLoops
 {
     public static void main(String [] args)
     {
-        int counter = 99999999;
-        int theTerminator = 1000000000;          //initialize the terminating value
+        double counter = 9999;
+        double theTerminator = 1000000000;          //initialize the terminating value
 
         while(counter < theTerminator)     //test the terminating condition
         {
             System.out.println("counter = " + counter);
-            counter++;
+            counter += 0.00000000000000000001;
         }//end of while loop
 
     }//end of main method

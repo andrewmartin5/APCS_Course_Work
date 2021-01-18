@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=CountingWithForLoops
+comment0.text=\r\n\ The\ purpose\ of\ this\ program\ is\ to\ illustrate\ the\ use\ of\r\n\ the\ for\ loop\ as\ a\ counter.\r\n\r\n\ @author\ Charles\ Babbage\r\n\ @version\ 06/05/17\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
