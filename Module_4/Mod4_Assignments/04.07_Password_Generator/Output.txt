@@ -1,0 +1,29 @@
+Password Generator
+==============================================================
+  [1] Only lowercase Letters
+  [2] Upper and lowercase letters
+  [3] Letters (upper and lowercase) and numbers
+  [4] Letters (upper and lowercase), numbers, and symbols
+  [5] Quit
+==============================================================
+Enter Selection (1-5): 2
+Password Length (6 or more): 10
+
+Enter Selection (1-5): 7
+Invalid option. Please try again.
+
+Enter Selection (1-5): 3
+Password Length (6 or more): 2
+  Password Length too short. Please try again.
+Password Length (6 or more): 7
+
+Enter Selection (1-5): 9
+Invalid option. Please try again.
+
+Enter Selection (1-5): 5
+
+Thank you for using the Password Generator.
+
+Here are your randomly generated codes:
+1               jjUSCVGgot
+2               952jSMu
