@@ -1,0 +1,17 @@
+GuitarV8
+________________________________________
+<< In main method >>
++ String name
++ String tuning
+________________________________________
+<< Constructor >>
++ GuitarV3()
+    + String name
+    + String tuning
+<< Methods >>
++ String getName()
++ String getTuning()
++ void setName(String newName)
++ void setTuning(String newTuning)
++ void printGuitar()
++ void playNote(String note)
