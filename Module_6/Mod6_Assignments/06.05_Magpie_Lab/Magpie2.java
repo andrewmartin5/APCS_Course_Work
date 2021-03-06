@@ -27,23 +27,23 @@ public class Magpie2 {
     public String getResponse(String statement) {
         String response = "";
         statement.trim();
-        if (statement.indexOf("no") >= 0) {
-            response = "Why so negative?";
-        } else if (statement.indexOf("mother") >= 0 || statement.indexOf("father") >= 0
-                || statement.indexOf("sister") >= 0 || statement.indexOf("brother") >= 0) {
-            response = "Tell me more about your family.";
-        } else if (statement.indexOf("dog") >= 0 || statement.indexOf("cat") >= 0) {
-            response = "Tell me more about your pets.";
-        } else if (statement.indexOf("Mrs. Henry") >= 0) {
-            response = "She sounds like a good teacher.";
-        } else if (statement.length() == 0) {
+        if (statement.length() == 0) {
             response = "Please say something.";
-        } else if (statement.indexOf("sad") >= 0 || statement.indexOf("dissapoint") >= 0) {
-            response = "Why so dissapointed?";
-        } else if (statement.indexOf("your name") >= 0) {
+        } else if (findKeyword(statement, "mother") >= 0 || findKeyword(statement, "father") >= 0
+                || findKeyword(statement, "sister") >= 0 || findKeyword(statement, "brother") >= 0) {
+            response = "Tell me more about your family.";
+        } else if (findKeyword(statement, "dog") >= 0 || findKeyword(statement, "cat") >= 0) {
+            response = "Tell me more about your pets.";
+        } else if (findKeyword(statement, "Mrs. Henry") >= 0) {
+            response = "She sounds like a good teacher.";
+        } else if (findKeyword(statement, "your name") >= 0) {
             response = "My name is Magpie. What's yours?";
-        } else if (statement.indexOf("what") >= 0 && statement.indexOf("you") >= 0) {
+        } else if (findKeyword(statement, "what") >= 0 && findKeyword(statement, "you") >= 0) {
             response = "I am a chatbot named Magpie.";
+        } else if (findKeyword(statement, "sad") >= 0 || findKeyword(statement, "dissapoint") >= 0) {
+            response = "Why so dissapointed?";
+        } else if (findKeyword(statement, "no") >= 0) {
+            response = "Why so negative?";
         } else {
             response = getRandomResponse();
         }
