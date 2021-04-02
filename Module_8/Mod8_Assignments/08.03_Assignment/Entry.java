@@ -1,3 +1,12 @@
+/**
+ * Purpose: To create a contact list entry with name, relationship, birthday,
+ * phone, and email address
+ * 
+ * @author Andrew Martin
+ * @version 1.0
+ * @since 4/1/2021
+ *
+ */
 public class Entry {
     private String name, relation, birthday, phoneNum, email;
 

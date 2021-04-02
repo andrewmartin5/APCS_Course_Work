@@ -1,3 +1,13 @@
+/**
+ * Purpose: To create a contact list and be able to search by name, relation,
+ * birth month, phone number, and email, as well as perform sorts by name and
+ * relation
+ *
+ * @author Andrew Martin
+ * @version 1.0
+ * @since 4/1/2021
+ *
+ */
 public class ContactList {
     public static Entry[] contactList = new Entry[] {
             new Entry("Irvin", "Friend", "12/21/1947", "8065440020", "IrvinEMeyer@jourrapide.com"),
@@ -110,17 +120,49 @@ public class ContactList {
         return Integer.parseInt(bday);
     }
 
-    public static int getNumFromPhone(String phone) {
+    public static int getMonthFromText(String month) {
+        if (month.indexOf("Jan") > -1 || month.indexOf("jan") > -1) {
+            return 1;
+        } else if (month.indexOf("Feb") > -1 || month.indexOf("feb") > -1) {
+            return 2;
+        } else if (month.indexOf("Mar") > -1 || month.indexOf("mar") > -1) {
+            return 3;
+        } else if (month.indexOf("Apr") > -1 || month.indexOf("apr") > -1) {
+            return 4;
+        } else if (month.indexOf("May") > -1 || month.indexOf("may") > -1) {
+            return 5;
+        } else if (month.indexOf("Jun") > -1 || month.indexOf("jun") > -1) {
+            return 6;
+        } else if (month.indexOf("Jul") > -1 || month.indexOf("jul") > -1) {
+            return 7;
+        } else if (month.indexOf("Aug") > -1 || month.indexOf("aug") > -1) {
+            return 8;
+        } else if (month.indexOf("Sep") > -1 || month.indexOf("sep") > -1) {
+            return 9;
+        } else if (month.indexOf("Oct") > -1 || month.indexOf("oct") > -1) {
+            return 10;
+        } else if (month.indexOf("Nov") > -1 || month.indexOf("nov") > -1) {
+            return 11;
+        } else if (month.indexOf("Dec") > -1 || month.indexOf("dec") > -1) {
+            return 12;
+        }
         return 0;
     }
 
-    public static void bdMonthSearch(Entry[] contactList, int month) {
+    public static String getNumFromPhone(String phone) {
+        phone = phone.substring(0, phone.indexOf("-")) + phone.substring(phone.indexOf("-") + 1);
+        phone = phone.substring(0, phone.indexOf("-")) + phone.substring(phone.indexOf("-") + 1);
+        return phone;
+    }
+
+    public static void bdMonthSearch(Entry[] contactList, String birthdayMonth) {
+        int month = getMonthFromText(birthdayMonth);
         int numFound = 0;
         for (int i = 0; i < contactList.length; i++) {
             int bdMonth = getMonthFromBd(contactList[i].getBirthday());
             if (bdMonth == month) {
                 if (numFound == 0) {
-                    System.out.println("Search results for birthday in " + month + ":");
+                    System.out.println("Search results for birthday in " + birthdayMonth + ":");
                 }
                 System.out.println(contactList[i].toString());
                 numFound++;
@@ -132,28 +174,57 @@ public class ContactList {
         System.out.println();
     }
 
-    public static void phoneSearch(Entry[] contactList, int phone) {
+    public static void phoneSearch(Entry[] contactList, String phone) {
         int numFound = 0;
         for (int i = 0; i < contactList.length; i++) {
-            if (Integer.parseInt(contactList[i].getPhone()) == phone) {
+            if (getNumFromPhone(contactList[i].getPhone()).equalsIgnoreCase(phone)) {
                 if (numFound == 0) {
-                    System.out.println("Search results for songs released in " + phone + ":");
+                    System.out.println("Search results for phone number "
+                            + (phone.substring(0, 3) + "-" + phone.substring(3, 6) + "-" + phone.substring(6)) + ":");
                 }
                 System.out.println(contactList[i].toString());
                 numFound++;
             }
         }
         if (numFound == 0) {
-            System.out.println("You do not have a song released in " + phone + " on your playlist.");
+            System.out.println("Could not find " + phone + ".");
+        }
+        System.out.println();
+    }
+
+    public static void emailSearch(Entry[] contactList, String email) {
+        int numFound = 0;
+        for (int i = 0; i < contactList.length; i++) {
+            if (contactList[i].getEmail().equalsIgnoreCase(email)) {
+                if (numFound == 0) {
+                    System.out.println("Search results for email " + email + ":");
+                }
+                System.out.println(contactList[i].toString());
+                numFound++;
+            }
+        }
+        if (numFound == 0) {
+            System.out.println("Could not find " + email + ".");
         }
         System.out.println();
     }
 
     public static void main(String[] args) {
         printContacts(contactList);
+        System.out.println();
         binaryNameSearch(contactList, "Nick");
+        binaryNameSearch(contactList, "Apple");
+        System.out.println();
         binaryRelationSort(contactList, "aunt");
-        bdMonthSearch(contactList, 4);
-        phoneSearch(contactList, 2044931029);
+        binaryRelationSort(contactList, "Soccer Coach");
+        System.out.println();
+        bdMonthSearch(contactList, "April");
+        bdMonthSearch(contactList, "February");
+        System.out.println();
+        phoneSearch(contactList, "8067915356");
+        phoneSearch(contactList, "2048675309");
+        System.out.println();
+        emailSearch(contactList, "RaulAOtt@teleworm.us");
+        emailSearch(contactList, "asdfghjkl@gmail.com");
     }
 }
