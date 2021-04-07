@@ -108,18 +108,6 @@ public class Picture extends SimplePicture
   }
   
   // keepOnlyBlue
-    public void keepOnlyBlue()
-  {
-    Pixel[][] pixels = this.getPixels2D();
-    for (Pixel[] rowArray : pixels)
-    {
-      for (Pixel pixelObj : rowArray)
-      {
-        pixelObj.setRed(0);
-        pixelObj.setGreen(0);
-      }
-    }
-  }
   // keepOnlyRed
   // keepOnlyGreen
   // nagate
