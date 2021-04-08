@@ -55,12 +55,41 @@ public class PictureTester {
     caterpillar.mirrorVerticalRightToLeft();
     caterpillar.explore();
   }
+  
+    public static void testMirrorHorizontal() {
+    Picture caterpillar = new Picture("caterpillar.jpg");
+    caterpillar.explore();
+    caterpillar.mirrorHorizontal();
+    caterpillar.explore();
+  }
+  
+  public static void testMirrorHorizontalBotToTop() {
+    Picture caterpillar = new Picture("caterpillar.jpg");
+    caterpillar.explore();
+    caterpillar.mirrorHorizontalBotToTop();
+    caterpillar.explore();
+  }
+  
   /** Method to test mirrorTemple */
   public static void testMirrorTemple() {
     Picture temple = new Picture("temple.jpg");
     temple.explore();
     temple.mirrorTemple();
     temple.explore();
+  }
+  
+    public static void testMirrorArms() {
+    Picture temple = new Picture("snowman.jpg");
+    temple.explore();
+    temple.mirrorArms();
+    temple.explore();
+  }
+  
+      public static void testMirrorGull() {
+    Picture gull = new Picture("seagull.jpg");
+    gull.explore();
+    gull.mirrorGull();
+    gull.explore();
   }
 
   /** Method to test the collage method */
@@ -97,16 +126,16 @@ public class PictureTester {
 
     // Activity 6
     // testMirrorVertical();
-    testMirrorVerticalRightToLeft();
-    // testMirrorHorizontal();
-    // testMirrorHorizontalBotToTop();
+    //testMirrorVerticalRightToLeft();
+    //testMirrorHorizontal();
+     //testMirrorHorizontalBotToTop();
 
     // Activity 6 Challenge - optional
     // testMirrorDiagonal();
 
     // Activity 7
     // testMirrorTemple();
-    // testMirrorArms();
+     testMirrorArms();
     // testMirrorGull();
 
     // Activity 8
