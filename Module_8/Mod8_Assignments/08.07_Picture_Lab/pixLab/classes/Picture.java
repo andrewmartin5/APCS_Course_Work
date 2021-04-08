@@ -123,6 +123,19 @@ public class Picture extends SimplePicture {
     }
   }
   // grayscale
+  public void grayscale() {
+      Pixel[][] pixels = this.getPixels2D();
+      for(Pixel[] row : pixels) {
+        for(Pixel pixelObj : row) {
+            int avg = 0;
+            avg += pixelObj.getRed() + pixelObj.getGreen() + pixelObj.getBlue();
+            avg = avg/3;
+            pixelObj.setRed(avg);
+            pixelObj.setGreen(avg);
+            pixelObj.setBlue(avg);
+        }
+        }
+    }
   // fixUnderWater - optional
 
   /////////////////////////// Activity 6 ////////////////////////////
@@ -145,6 +158,19 @@ public class Picture extends SimplePicture {
   }
 
   // mirrorVerticalRightToLeft
+    public void mirrorVerticalRightToLeft() {
+    Pixel[][] pixels = this.getPixels2D();
+    Pixel leftPixel = null;
+    Pixel rightPixel = null;
+    int width = pixels[0].length;
+    for (int row = 0; row < pixels.length; row++) {
+      for (int col = 0; col < width / 2; col++) {
+        leftPixel = pixels[row][col];
+        rightPixel = pixels[row][width - 1 - col];
+        leftPixel.setColor(rightPixel.getColor());
+      }
+    }
+  }
   // mirrorHorizontal
   // mirrorHorizontalBotToTop
 
